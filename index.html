@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">KUMAR YASHANSH</div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active" data-section="home">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#skills" class="nav-link" data-section="skills">
+                    <i class="fas fa-code"></i>
+                    <span>Skills</span>
+                </a>
+                <a href="#projects" class="nav-link" data-section="projects">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="#extracurricular" class="nav-link" data-section="extracurricular">
+                    <i class="fas fa-award"></i>
+                    <span>Activities</span>
+                </a>
+                <a href="#experience" class="nav-link" data-section="experience">
+                    <i class="fas fa-file-alt"></i>
+                    <span>Experience</span>
+                </a>
+                <a href="#overview" class="nav-link" data-section="overview">
+                    <i class="fas fa-user"></i>
+                    <span>Overview</span>
+                </a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background">
+            <img src="op (1).jpg">
+        </div>
+        <div class="hero-content">
+            
+            <div class="profile-container">
+                <P>
+                <div class="profile-image">
+                    <img src="cropped_circle_image.png" alt="Profile Picture">
+                </div>
+                <div class="status-badge">
+                    Hello There 👋
+                </div>
+            </div>
+            <h1 class="hero-title">KUMAR YASHANSH</h1>
+            <p>
+            <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FFFF&center=true&vCenter=true&width=435&lines=Welcome+to+my+Portfolio!;I+love+building+cool+stuff!" alt="Typing SVG" />
+            </p>
+            <p class="hero-subtitle">Full Stack Developer & Creative Problem Solver</p>
+            <p class="hero-description">
+                Passionate about creating beautiful, functional, and user-friendly applications that make a difference.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('overview')">
+                    <i class="fas fa-envelope"></i>
+                    Contact Me
+                </button>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/git-yashansh" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kumar-yashansh-721391321/" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="js (2).png">
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="65"></div>
+                    </div>
+                    <span class="skill-percentage">65%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚛️</div>
+                    <h3>React</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="55"></div>
+                    </div>
+                    <span class="skill-percentage">55%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="nodejs (1).png" alt="">
+                    </div>
+                    <h3>Node.js</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="60"></div>
+                    </div>
+                    <span class="skill-percentage">60%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="python (1).png" alt=""></div>
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                    <span class="skill-percentage">75%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="c-sharp (1).png" alt=""></div>
+                    <h3>C#</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                    <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="c- (1).png" alt=""></div>
+                    <h3>C++</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                    <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="java-script (1).png" alt=""></div>
+                    <h3>TypeScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="65"></div>
+                    </div>
+                    <span class="skill-percentage">65%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="html-5 (1).png" alt=""></div>
+                    <h3>HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                    <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="css-3 (1).png" alt=""></div>
+                    <h3>CSS/SCSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                    <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🍃</div>
+                    <h3>MongoDB</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="65"></div>
+                    </div>
+                    <span class="skill-percentage">65%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><img src="social (1).png" alt=""></div>
+                    <h3>Git</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
+                    <span class="skill-percentage">70%</span>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="/placeholder.svg?height=300&width=400" alt="E-Commerce Platform"> -->
+                        <div class="project-overlay">
+                            <button class="btn btn-outline">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack e-commerce solution with React, Node.jS</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MORE..</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="/placeholder.svg?height=300&width=400" alt="Task Management App"> -->
+                        <div class="project-overlay">
+                            <button class="btn btn-outline">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>TO-DO App</h3>
+                        <p>Collaborative task management tool with real-time updates</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JAVA SCRIPT</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="/placeholder.svg?height=300&width=400" alt="Weather Dashboard"> -->
+                        <div class="project-overlay">
+                            <button class="btn btn-outline">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>Interactive weather dashboard with data visualization</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JAVA SCRIPT</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="/placeholder.svg?height=300&width=400" alt="Weather Dashboard"> -->
+                        <div class="project-overlay">
+                            <button class="btn btn-outline">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Lovely Coffee Shop</h3>
+                        <p>A cozy and charming café powered by modern web tech, where every cup of coffee is brewed with love and served through a sleek, responsive website.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JAVA SCRIPT</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="/placeholder.svg?height=300&width=400" alt="Social Media Analytics"> -->
+                        <div class="project-overlay">
+                            <button class="btn btn-outline">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Project
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>DocCareHub</h3>
+                        <p>Medicine ordering and doctor appoinment booking</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JAVA SCRIPT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extracurricular Activities -->
+    <section id="extracurricular" class="activities-section">
+        <div class="container">
+            <h2 class="section-title">Extracurricular Activities</h2>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Open Source Contributor</h3>
+                    <p class="activity-org">Various Projects</p>
+                    <p>Active contributor to open source projects</p>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Tech Community And Team Leader</h3>
+                    <p class="activity-org">Developer Meetup</p>
+                    <p>Organized monthly meetups and Lead Team Work</p>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Olympiad Winner</h3>
+                    <p class="activity-org">Fest 2023</p>
+                    <p>Recognized for outstanding performance and excellence in competitive academic Olympiads, showcasing strong analytical and problem-solving skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Project Leader</h3>
+                        <p class="company">Lovely Professional University – Student Projects</p>
+                        
+                        <p class="description">Led a team of peers to plan, coordinate, and successfully complete web-based and data-driven academic projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Freelance Web Developer</h3>
+                        <p class="company">Remote Work.</p>
+                        
+                        <p class="description">Designed and developed various responsive websites tailored to client requirements using HTML, CSS, JavaScript, and basic backend tools.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Data Analytics Practice using Excel & Python</h3>
+                        <p class="company">Excel & Python</p>
+                        
+                        <p class="description">Analyzed datasets using Excel (pivot tables, charts) and Python libraries like Pandas and Matplotlib. Interpreted trends and visualized data to draw meaningful insights during academic tasks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="overview-section">
+        <div class="container">
+            <h2 class="section-title">Overview</h2>
+            <div class="overview-content">
+                <div class="overview-grid">
+                    <div class="overview-left">
+                        <h3>About Me</h3>
+                        <p>i’m Kumar Yashansh, a 2nd-year B.Tech CSE student at Lovely Professional University.
+A fresher with a strong interest in Full-Stack Web Development and Data Analytics.
+Skilled in HTML, CSS, JavaScript, and learning the MERN stack.
+Also familiar with C, C++, and passionate about solving real-world problems through tech.
+Always curious, always learning — ready to build and grow in the tech world! 🚀</p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Phagwara,Punjab</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>kr.yashansh123@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 9304840306</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overview-right">
+                        <h3>Career Objectives</h3>
+                        <ul class="objectives-list">
+                            <li>
+                                <i class="fas fa-star"></i>
+                                Lead innovative projects that make a positive impact
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                                To gain hands-on experience in both frontend and backend development, enhancing my problem-solving abilities.
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                                Continuously learn and adapt to emerging technologies
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                                Build scalable solutions for complex business challenges
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="overview-actions">
+                    <button class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Let's Work Together
+                    </button>
+                    <button class="btn btn-secondary" id="downloadResumeBtn">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="https://github.com/git-yashansh" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kumar-yashansh-721391321/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <p class="footer-text">© 2025 KUMAR YASHANSH. All rights reserved.</p>
+                <p class="footer-subtext">Made with ❤️ by Kumar Yashansh</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
