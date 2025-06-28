@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (downloadBtn) {
     downloadBtn.addEventListener("click", () => {
       // You can replace this with actual resume download functionality
-      alert("UPDATED RESUME LOADING...CHECK BACK AFTER SOME TIME!!---KUMAR YASHANSH")
+      alert("CHECK BACK AFTER SOME TIME!!---KUMAR YASHANSH")
     })
   }
 
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
   projectButtons.forEach((button) => {
     button.addEventListener("click", () => {
       // You can replace this with actual project link functionality
-      alert("Project link would open here!")
+      alert("CHECK BACK AFTER SOME TIME!!---KUMAR YASHANSH")
     })
   })
 
